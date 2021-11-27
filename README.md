@@ -1,5 +1,8 @@
 # Git CookBook
 
+### to switch to another branch
+    git checkout the-other-branch
+
 ### To replace local branch with remote branch entirely in Git
     git reset --hard @{u}
     git pull
@@ -7,9 +10,6 @@
 ### to clone specific branch
      git clone -b local-branch-name remote-repo-url
 e.g. git clone -b local-branch-name https://github.com/lyassa/Git-CookBook.git
-
-### to switch to another branch
-    git checkout -b the-other-branch
 
 ### to compare local sorce code with a remore branch
     git diff local-branch-name  remote-branch-name 
