@@ -21,3 +21,6 @@ e.g. git clone -b local-branch-name https://github.com/lyassa/Git-CookBook.git
 ### to make git forget about a file that was tracked but is now in .gitignore
     git rm --cached <file>
     git rm -r --cached <folder> 
+
+The removal of the file from the head revision will happen on the next commit.
+This will not remove the physical file from your local machine, however it will remove the files from other developers' machines on their next git pull.
