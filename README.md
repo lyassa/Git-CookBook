@@ -19,5 +19,5 @@ e.g. git clone -b local-branch-name https://github.com/lyassa/Git-CookBook.git
  e.g. git diff master origin/master
 
 ### to make git forget about a file that was tracked but is now in .gitignore
->* git rm --cached <file>
->* git rm -r --cached <folder> 
+ git rm --cached \<file\>
+ git rm -r --cached \<folder\> 
