@@ -24,3 +24,7 @@ e.g. git clone -b local-branch-name https://github.com/lyassa/Git-CookBook.git
 
 The removal of the file from the head revision will happen on the next commit.
 This will not remove the physical file from your local machine, however it will remove the files from other developers' machines on their next git pull.
+
+### to merge remote master with the current local branch
+   git branch -a  # this will show you all branches, local and remote. The local active branch will have a star. Note the full path of the remote branch, e.g. remotes/origin/master
+   git rebase <remote-name/remote-branch>
