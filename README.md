@@ -28,3 +28,6 @@ This will not remove the physical file from your local machine, however it will 
 ### to merge remote master with the current local branch
     git branch -a  # this will show you all branches, local and remote. The local active branch will have a star. Note the full path of the remote branch, e.g. remotes/origin/master
     git rebase <remote-name/remote-branch>
+### to rename a branch</h3>
+    git switch <the-branch-you-want-to-rename>
+    git -m <new-branch-name>
