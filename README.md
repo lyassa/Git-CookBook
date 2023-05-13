@@ -30,4 +30,8 @@ This will not remove the physical file from your local machine, however it will 
     git rebase <remote-name/remote-branch>
 ### to rename a branch</h3>
     git switch <the-branch-you-want-to-rename>
-    git -m <new-branch-name>
+    git branch -m <new-branch-name>
+    
+or you can do it in one command
+
+    git branch -m <old-name> <new-name> 
